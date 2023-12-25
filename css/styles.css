@@ -489,6 +489,7 @@ font-size: 16px;
     display: flex;
     align-items: baseline;
     letter-spacing: 0.02em;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-link-sm{
     width: 100%;
@@ -526,7 +527,6 @@ background-color: #31d0aa;
     display: flex;
     gap: 16px;
     list-style-type: none;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-footer {
     position: fixed;
