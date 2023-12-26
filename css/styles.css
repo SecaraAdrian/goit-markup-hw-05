@@ -40,6 +40,9 @@ img{
         0px 1px 6px rgba(46, 47, 66, 0.08);
 
 }
+.color-nav{
+    color: #404bbf;
+}
 .container{
     padding-left: 15px;
     padding-right: 15px;
@@ -555,7 +558,6 @@ background-color: #31d0aa;
     border-radius: 4px;
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
-    box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0, 0.2);
 }
 .Button-open-close {
     position: absolute;
