@@ -374,7 +374,14 @@ font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--SLATE);
-    margin-bottom: 16px;
+    border-left: px solid #E7E9FC;
+        border-right: px solid #E7E9FC;
+        text-align: left;
+    /* margin-bottom: 16px; */
+ }
+ .phara:focus,
+ .phara:hover{
+    transform: translateY(0%);
  }
  .p-team {
      text-align: center;
