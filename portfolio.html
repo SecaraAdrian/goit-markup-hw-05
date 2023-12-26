@@ -79,11 +79,13 @@
           <ul class="image-section list">
             <li class="aspect-image">
               <a href="" class="link">
-                <img
+                <div class="image-container">
+                  <img
                   src="./images/web-design.jpg"
                   alt="Page-design"
                   width="360"
                 />
+              </div>
                 <div class="container-elements">
                   <h2 class="portfolio-titles">
                     Banking App Interface Concept
@@ -222,8 +224,14 @@
         </div>
       </div>
     </footer>
-    <div class="footer-modal-container is-hidden" data-modal-open>
-      <button></button>
+    <div class="footer-modal-container is-hidden" data-modal>
+      <div class="modal-button">
+        <button class="Button-open-close" type="button" data-modal-close>
+          <svg class="svg-icon" width="8" height="8">
+            <use href="./images/icons.svg#icon-close-black"></use>
+          </svg>
+        </button>
+      </div>
     </div>
     <script src="./js/modal.js"></script>
   </body>
