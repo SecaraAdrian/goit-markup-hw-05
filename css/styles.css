@@ -619,7 +619,7 @@ background-color: #31d0aa;
     transform: translate(-50%, -50%);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.Button-open-close {
+.button-open-close {
     position: absolute;
     top: 24px;
     right: 24px;
@@ -637,8 +637,8 @@ background-color: #31d0aa;
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14);
 }
-.Button-open-close:hover,
-.Button-open-close:focus {
+.button-open-close:hover,
+.button-open-close:focus {
 background-color: #404bbf;
 border: none;
 fill: #ffffff
