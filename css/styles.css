@@ -542,6 +542,9 @@ font-size: 16px;
     border-color: #404bbf;
     color: #404BBF;
 }
+.svg-icon{
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 .svg-icon:hover;
 .svg-icon:focus {
     fill: #ffffff;
@@ -634,8 +637,7 @@ background-color: #31d0aa;
     padding: 0;
     cursor: pointer;
     transform: translate(-50%, -50%);
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms;
 }
 .button-open-close:hover,
 .button-open-close:focus {
