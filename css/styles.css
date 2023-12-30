@@ -359,8 +359,8 @@ font-size: 16px;
 
 }
 /* .nav-link:active{
-    color: #2E2F42; */
-}
+    color: #2E2F42;
+} */
 .nav-link:focus {
     color: #404bbf;
 }
